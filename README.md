@@ -9,12 +9,7 @@
 
 Identifica el tipo de cada matriz:
 
-$$
-A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \qquad
-B = \begin{pmatrix} 3 & 0 & 0 \\ 0 & -2 & 0 \\ 0 & 0 & 5 \end{pmatrix}, \qquad
-C = \begin{pmatrix} 2 & 1 & 4 \\ 1 & 3 & 5 \\ 4 & 5 & 6 \end{pmatrix}, \qquad
-D = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}
-$$
+![matrices](https://latex.codecogs.com/svg.image?\Large%20A=\begin{pmatrix}1&0\\0&1\end{pmatrix},\quad%20B=\begin{pmatrix}3&0&0\\0&-2&0\\0&0&5\end{pmatrix},\quad%20C=\begin{pmatrix}2&1&4\\1&3&5\\4&5&6\end{pmatrix},\quad%20D=\begin{pmatrix}1&2&3\\0&4&5\\0&0&6\end{pmatrix})
 
 ---
 
@@ -43,9 +38,7 @@ Matriz *triangular superior* de orden $3 \times 3$.
 No es simétrica ni diagonal.  
 Su determinante es:
 
-$$
-\det(D) = 1 \cdot 4 \cdot 6 = 24 \neq 0
-$$
+![det](https://latex.codecogs.com/svg.image?\Large%20\det(D)=1\cdot4\cdot6=24\neq0)
 
 Por lo tanto, es *invertible*.
 
@@ -62,10 +55,7 @@ Se comprendieron las características que diferencian a las matrices identidad, 
 
 Dadas las matrices:
 
-$$
-A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}, \qquad
-B = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
-$$
+![matricesAB](https://latex.codecogs.com/svg.image?\Large%20A=\begin{pmatrix}2&-1\\3&4\end{pmatrix},\quad%20B=\begin{pmatrix}5&2\\-1&3\end{pmatrix})
 
 Calcula:  
 a) $A + B$  
@@ -78,41 +68,31 @@ e) $A^T$
 
 #### a) Suma de matrices $A + B$
 
-$$
-A + B = \begin{pmatrix} 2+5 & -1+2 \\ 3+(-1) & 4+3 \end{pmatrix} = \begin{pmatrix} 7 & 1 \\ 2 & 7 \end{pmatrix}
-$$
+![suma](https://latex.codecogs.com/svg.image?\Large%20A+B=\begin{pmatrix}2+5&-1+2\\3+(-1)&4+3\end{pmatrix}=\begin{pmatrix}7&1\\2&7\end{pmatrix})
 
 ---
 
 #### b) Operación $2A - B$
 
-$$
-2A - B = 2\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} -1 & -4 \\ 7 & 5 \end{pmatrix}
-$$
+![resta](https://latex.codecogs.com/svg.image?\Large%202A-B=2\begin{pmatrix}2&-1\\3&4\end{pmatrix}-\begin{pmatrix}5&2\\-1&3\end{pmatrix}=\begin{pmatrix}-1&-4\\7&5\end{pmatrix})
 
 ---
 
 #### c) Producto $AB$
 
-$$
-AB = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 11 & 1 \\ 11 & 18 \end{pmatrix}
-$$
+![AB](https://latex.codecogs.com/svg.image?\Large%20AB=\begin{pmatrix}2&-1\\3&4\end{pmatrix}\begin{pmatrix}5&2\\-1&3\end{pmatrix}=\begin{pmatrix}11&1\\11&18\end{pmatrix})
 
 ---
 
 #### d) Producto $BA$
 
-$$
-BA = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 16 & 3 \\ 7 & 13 \end{pmatrix}
-$$
+![BA](https://latex.codecogs.com/svg.image?\Large%20BA=\begin{pmatrix}5&2\\-1&3\end{pmatrix}\begin{pmatrix}2&-1\\3&4\end{pmatrix}=\begin{pmatrix}16&3\\7&13\end{pmatrix})
 
 ---
 
 #### e) Transpuesta de $A$
 
-$$
-A^T = \begin{pmatrix} 2 & 3 \\ -1 & 4 \end{pmatrix}
-$$
+![AT](https://latex.codecogs.com/svg.image?\Large%20A^T=\begin{pmatrix}2&3\\-1&4\end{pmatrix})
 
 ---
 
@@ -126,11 +106,7 @@ Durante el ejercicio se aplicaron las operaciones básicas del álgebra matricia
 
 Dadas las matrices:
 
-$$
-A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}, \qquad
-B = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}, \qquad
-C = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-$$
+![ABC](https://latex.codecogs.com/svg.image?\Large%20A=\begin{pmatrix}1&2\\3&4\end{pmatrix},\quad%20B=\begin{pmatrix}2&0\\1&3\end{pmatrix},\quad%20C=\begin{pmatrix}1&1\\0&2\end{pmatrix})
 
 Verifica que $(AB)C = A(BC)$
 
@@ -138,47 +114,35 @@ Verifica que $(AB)C = A(BC)$
 
 #### Paso 1: Calcular $AB$
 
-$$
-AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
-$$
+![AB2](https://latex.codecogs.com/svg.image?\Large%20AB=\begin{pmatrix}1&2\\3&4\end{pmatrix}\begin{pmatrix}2&0\\1&3\end{pmatrix}=\begin{pmatrix}4&6\\10&12\end{pmatrix})
 
 ---
 
 #### Paso 2: Calcular $(AB)C$
 
-$$
-(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-$$
+![ABC2](https://latex.codecogs.com/svg.image?\Large%(AB)C=\begin{pmatrix}4&6\\10&12\end{pmatrix}\begin{pmatrix}1&1\\0&2\end{pmatrix}=\begin{pmatrix}4&16\\10&34\end{pmatrix})
 
 ---
 
 #### Paso 3: Calcular $BC$
 
-$$
-BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
-$$
+![BC](https://latex.codecogs.com/svg.image?\Large%20BC=\begin{pmatrix}2&0\\1&3\end{pmatrix}\begin{pmatrix}1&1\\0&2\end{pmatrix}=\begin{pmatrix}2&2\\1&7\end{pmatrix})
 
 ---
 
 #### Paso 4: Calcular $A(BC)$
 
-$$
-A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix} = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-$$
+![A(BC)](https://latex.codecogs.com/svg.image?\Large%20A(BC)=\begin{pmatrix}1&2\\3&4\end{pmatrix}\begin{pmatrix}2&2\\1&7\end{pmatrix}=\begin{pmatrix}4&16\\10&34\end{pmatrix})
 
 ---
 
 #### Verificación
 
-$$
-(AB)C = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}, \qquad A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-$$
+![verif](https://latex.codecogs.com/svg.image?\Large%(AB)C=\begin{pmatrix}4&16\\10&34\end{pmatrix},\quad%20A(BC)=\begin{pmatrix}4&16\\10&34\end{pmatrix})
 
 Por lo tanto:
 
-$$
-(AB)C = A(BC)
-$$
+![igual](https://latex.codecogs.com/svg.image?\Large%(AB)C=A(BC))
 
 ---
 
