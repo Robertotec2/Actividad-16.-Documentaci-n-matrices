@@ -17,6 +17,7 @@ C = \begin{pmatrix} 2 & 1 & 4 \\ 1 & 3 & 5 \\ 4 & 5 & 6 \end{pmatrix}, \qquad
 D = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}
 $$
 
+
 ---
 
 #### Matriz A  
@@ -80,8 +81,7 @@ e) $A^T$
 #### a) Suma de matrices $A + B$
 
 $$
-A + B = \begin{pmatrix} 2+5 & -1+2 \\ 3+(-1) & 4+3 \end{pmatrix}
-       = \begin{pmatrix} 7 & 1 \\ 2 & 7 \end{pmatrix}
+A + B = \begin{pmatrix} 2+5 & -1+2 \\ 3+(-1) & 4+3 \end{pmatrix} = \begin{pmatrix} 7 & 1 \\ 2 & 7 \end{pmatrix}
 $$
 
 ---
@@ -96,37 +96,27 @@ $$
 #### c) Producto $AB$
 
 $$
-AB = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
-     \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
-   = \begin{pmatrix}
-   (2)(5)+(-1)(-1) & (2)(2)+(-1)(3) \\
-   (3)(5)+(4)(-1) & (3)(2)+(4)(3)
-   \end{pmatrix}
-   = \begin{pmatrix} 11 & 1 \\ 11 & 18 \end{pmatrix}
+AB = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 11 & 1 \\ 11 & 18 \end{pmatrix}
 $$
+
 
 ---
 
 #### d) Producto $BA$
 
 $$
-BA = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
-     \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
-   = \begin{pmatrix}
-   (5)(2)+(2)(3) & (5)(-1)+(2)(4) \\
-   (-1)(2)+(3)(3) & (-1)(-1)+(3)(4)
-   \end{pmatrix}
-   = \begin{pmatrix} 16 & 3 \\ 7 & 13 \end{pmatrix}
+BA = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 16 & 3 \\ 7 & 13 \end{pmatrix}
 $$
+
 
 ---
 
 #### e) Transpuesta de $A$
 
 $$
-A^T = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}^T
-    = \begin{pmatrix} 2 & 3 \\ -1 & 4 \end{pmatrix}
+A^T = \begin{pmatrix} 2 & 3 \\ -1 & 4 \end{pmatrix}
 $$
+
 
 ---
 
