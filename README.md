@@ -1,7 +1,6 @@
-
 # Tecnológico de Software  
 ## Materia: Fundamentos de Álgebra  
-## Alumno: Leonardo Balmes Solis 
+## Alumno: Leonardo Balmes Solis  
 ## Actividad #16 - Operaciones con matrices  
 
 ---
@@ -17,25 +16,24 @@ C = \begin{pmatrix} 2 & 1 & 4 \\ 1 & 3 & 5 \\ 4 & 5 & 6 \end{pmatrix}, \qquad
 D = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}
 $$
 
-
 ---
 
 #### Matriz A  
-Matriz *identidad* $I_2$, también es *diagonal, **escalar* ($\lambda = 1$), *simétrica* y *triangular superior e inferior*.  
+Matriz *identidad* $I_2$, también es *diagonal, escalar* ($\lambda = 1$), *simétrica* y *triangular superior e inferior*.  
 Propiedad: $A = A^T$.
 
 ---
 
 #### Matriz B  
 Matriz *diagonal* de orden $3 \times 3$.  
-También es *triangular superior e inferior, y **simétrica*.  
+También es *triangular superior e inferior, y simétrica*.  
 No es escalar porque sus elementos diagonales son diferentes $(3, -2, 5)$.
 
 ---
 
 #### Matriz C  
-Una **matriz simétrica** de tamaño (3 \times 3) es aquella en la que los elementos ubicados de forma opuesta respecto a la diagonal principal son iguales, es decir, (C_{ij} = C_{ji}).  
-Por ejemplo: (C_{12} = 1 = C_{21}), (C_{13} = 4 = C_{31}), (C_{23} = 5 = C_{32}).  
+Una **matriz simétrica** de tamaño $(3 \times 3)$ es aquella en la que los elementos ubicados de forma opuesta respecto a la diagonal principal son iguales, es decir, $C_{ij} = C_{ji}$.  
+Por ejemplo: $C_{12} = 1 = C_{21}$, $C_{13} = 4 = C_{31}$, $C_{23} = 5 = C_{32}$.  
 Esta matriz no es ni diagonal ni triangular.
 
 ---
@@ -86,10 +84,11 @@ $$
 
 ---
 
-#### b) Operación $2A - B
-![equation](https://math.now.sh?from=BA%20%3D%20%5Cbegin%7Bpmatrix%7D5%262%5C%5C-1%263%5Cend%7Bpmatrix%7D%5Cbegin%7Bpmatrix%7D2%26-1%5C%5C3%264%5Cend%7Bpmatrix%7D%3D%5Cbegin%7Bpmatrix%7D16%263%5C%5C7%2613%5Cend%7Bpmatrix%7D&color=black&background=white)
+#### b) Operación $2A - B$
 
-
+$$
+2A - B = 2\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} -1 & -4 \\ 7 & 5 \end{pmatrix}
+$$
 
 ---
 
@@ -99,7 +98,6 @@ $$
 AB = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 11 & 1 \\ 11 & 18 \end{pmatrix}
 $$
 
-
 ---
 
 #### d) Producto $BA$
@@ -108,7 +106,6 @@ $$
 BA = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 16 & 3 \\ 7 & 13 \end{pmatrix}
 $$
 
-
 ---
 
 #### e) Transpuesta de $A$
@@ -116,7 +113,6 @@ $$
 $$
 A^T = \begin{pmatrix} 2 & 3 \\ -1 & 4 \end{pmatrix}
 $$
-
 
 ---
 
@@ -143,13 +139,7 @@ Verifica que $(AB)C = A(BC)$
 #### Paso 1: Calcular $AB$
 
 $$
-AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
-     \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
-   = \begin{pmatrix}
-   (1)(2)+(2)(1) & (1)(0)+(2)(3) \\
-   (3)(2)+(4)(1) & (3)(0)+(4)(3)
-   \end{pmatrix}
-   = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
+AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
 $$
 
 ---
@@ -157,13 +147,7 @@ $$
 #### Paso 2: Calcular $(AB)C$
 
 $$
-(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
-         \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-       = \begin{pmatrix}
-       (4)(1)+(6)(0) & (4)(1)+(6)(2) \\
-       (10)(1)+(12)(0) & (10)(1)+(12)(2)
-       \end{pmatrix}
-       = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
+(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
 $$
 
 ---
@@ -171,13 +155,7 @@ $$
 #### Paso 3: Calcular $BC$
 
 $$
-BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
-      \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-    = \begin{pmatrix}
-    (2)(1)+(0)(0) & (2)(1)+(0)(2) \\
-    (1)(1)+(3)(0) & (1)(1)+(3)(2)
-    \end{pmatrix}
-    = \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
+BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
 $$
 
 ---
@@ -185,13 +163,7 @@ $$
 #### Paso 4: Calcular $A(BC)$
 
 $$
-A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
-         \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
-       = \begin{pmatrix}
-       (1)(2)+(2)(1) & (1)(2)+(2)(7) \\
-       (3)(2)+(4)(1) & (3)(2)+(4)(7)
-       \end{pmatrix}
-       = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
+A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix} = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
 $$
 
 ---
@@ -199,8 +171,7 @@ $$
 #### Verificación
 
 $$
-(AB)C = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}, \qquad
-A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
+(AB)C = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}, \qquad A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
 $$
 
 Por lo tanto:
@@ -213,5 +184,5 @@ $$
 
 ### Conclusión del Ejercicio 3  
 
-Se comprobó la _propiedad asociativa_ de la multiplicación de matrices, la cual indica que el modo de agrupar los factores no altera el resultado: $(AB)C = A(BC)$. Esta propiedad demuestra que las operaciones encadenadas son coherentes en el álgebra matricial y facilitan la simplificación de cálculos en transformaciones lineales y sistemas de ecuaciones.
-
+Se comprobó la *propiedad asociativa* de la multiplicación de matrices, la cual indica que el modo de agrupar los factores no altera el resultado: $(AB)C = A(BC)$.  
+Esta propiedad demuestra que las operaciones encadenadas son coherentes en el álgebra matricial y facilitan la simplificación de cálculos en transformaciones lineales y sistemas de ecuaciones.
