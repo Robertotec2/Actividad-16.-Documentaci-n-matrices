@@ -1,7 +1,7 @@
 
 # Tecnológico de Software  
 ## Materia: Fundamentos de Álgebra  
-## Alumno: Leonardo Balmes Solis 
+## Alumno: Roberto Balmes Solis 
 ## Actividad #16 - Operaciones con matrices  
 
 ---
